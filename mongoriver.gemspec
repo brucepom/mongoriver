@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Mongoriver::VERSION
 
-  gem.add_runtime_dependency('mongo', '= 1.8')
-  gem.add_runtime_dependency('bson_ext', '= 1.8')
+  gem.add_runtime_dependency('mongo', '>= 1.8')
+  gem.add_runtime_dependency('bson_ext')
   gem.add_runtime_dependency('log4r')
 
   gem.add_development_dependency('rake')
